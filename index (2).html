@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Café de la Creme</title>
+    <style>
+        body {
+            background-color: #7B3E0D;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu {
+            background-color: #B3A492;
+            padding: 10px;
+        }
+
+        #menu ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #menu li {
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #menu li img {
+            width: 100%;
+            height: auto;
+            transition: opacity 0.3s ease; /* Add transition for opacity */
+        }
+
+        #menu li:hover img {
+            opacity: 0.7; /* Reduce opacity on hover */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #logo {
+            text-align: center;
+        }
+
+        #logo img {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: auto;
+        }
+
+        /* Navigation bar styles */
+        #navbar {
+            background-color: #B3A492;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        #navbar li {
+            margin: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="https://i.pinimg.com/736x/9f/84/35/9f8435f704e876c8995dd18e909ee1b7.jpg" width="200" height="120">
+    </div>
+
+    <div id="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <h1>Welcome to Café de la Creme</h1>
+
+    <h2 id="menu">Menu
+    <ul>
+        <li>
+            <h3>Espresso</h3>
+            <img src="https://foodsguy.com/wp-content/uploads/2022/02/Espresso.jpg" alt="Espresso" width="200" height="120">
+        </li>
+        <li>
+            <h3>Cappuccino</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Cappuccino_at_Sightglass_Coffee.jpg" alt="Cappuccino"width="200" height="120">
+        </li>
+        <li>
+            <h3>Latte</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/A_cup_of_latte_with_lunch_at_Merewether_Beach%2CAustralia.jpeg" alt="Latte"width="200" height="120">
+        </li>
+        <li>
+            <h3>Mocha</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Mocha_coffee.jpg" alt="Mocha"width="200" height="120">
+        </li>
+        <li>
+            <h3>Americano</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Espresso_Americano.jpeg" alt="Americano"width="200" height="120">
+        </li>
+        <li>
+            <h3>Macchiato</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Macchiato.JPG" alt="Macchiato"width="200" height="120">
+        </li>
+        <li>
+            <h3>Muffins</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/02116jfMuffins_in_Philippinesfvf_02.jpg" alt="Muffins"width="200" height="120">
+        </li>
+        <li>
+            <h3>Croissants</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/2018_01_Croissant_IMG_0685.JPG" alt="Croissants"width="200" height="120">
+        </li>
+        <li>
+            <h3>Danishes</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Cinnamon_danish_in_Copenhagen.jpg" alt="Danishes"width="200" height="120">
+        </li>
+        <li>
+            <h3>Chocolate Cake</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Chocolate_fudge_cake.jpg" alt="Cake"width="200" height="120">
+        </li>
+        <li>
+            <h3>Tea</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Tea_in_different_grade_of_fermentation.jpg" alt="Tea"width="200" height="120">
+        </li>
+        <li>
+            <h3>Hot Chocolate</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hei%C3%9Fe_Schokolade.jpg" alt="Hot Chocolate"width="200" height="120">
+        </li>
+        <li>
+            <h3>Fruit Salad</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Sweet_Summer_Rainbow_Fruit_Salad.jpg" alt="Fruit Salad"width="200" height="120">
+        </li>
+        <li>
+            <h3>Sandwiches</h3>
+            <img src="https://i.pinimg.com/originals/4b/09/6d/4b096dee039b3d5896ed156d32578fac.jpg" alt="Sandwiches"width="200" height="120">
+        </li>
+        <li>
+            <h3>Pasta</h3>
+            <img src="https://i.pinimg.com/564x/75/55/e7/7555e75239a50b7472051077e30f7554.jpg" alt="Pasta"width="200" height="120">
+        </li>
+    </ul>
+    </h2>
+
+    <h2 id="about">About Café de la Creme</h2>
+    <p>Café de la Creme is a charming café that specializes in serving the finest coffee and delectable pastries. Our cozy atmosphere is the perfect place to relax and savor your favorite brew. From rich espresso to creamy cappuccinos, and a delectable range of pastries and other treats, we're dedicated to delivering a delightful coffee and dessert experience like no other.</p>
+
+    <h2>Contact Us</h2>
+    <p>Visit us at: 123 Cafe Street, Coffee City, CA</p>
+    <p>Phone: 09654773078</p>
+</body>
+
+</html>
